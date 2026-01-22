@@ -48,3 +48,7 @@ Test note: session logger works
 
 ## Update: 2026-01-22 08:19:49Z
 Session 1: Testing state persistence between chats. This note should be visible in the next chat session.
+
+## Update: 2026-01-22 09:25:23Z
+## Update: 2026-01-22T09:25:23Z
+Working to move to native WSL toolchain in VS Code and terminal.
