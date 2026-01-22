@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Append Session Note",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/append-session.sh",
+      "args": ["${input:sessionNote}"],
+      "presentation": { "echo": true, "reveal": "always" },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "sessionNote",
+      "type": "promptString",
+      "description": "Session note to append to .vscode/session-state.md"
+    }
+  ]
+}
